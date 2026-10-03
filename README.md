@@ -2,7 +2,7 @@
 
 Dự án học MLOps end-to-end: xây dựng mô hình **phát hiện gian lận giao dịch** cho `banking-demo`, rồi đưa nó qua đầy đủ vòng đời **data → train → registry → serving → monitoring → retrain** trên **OpenShift + ArgoCD (GitOps)**.
 
-Dự án tái sử dụng nền tảng đã có ở `banking-demo/phase9-gitops-platform` (Jenkins, Kaniko, Harbor, ArgoCD, Vault + ESO, NFS CSI) và bổ sung các thành phần đặc thù cho ML.
+Dự án tái sử dụng nền tảng đã có ở `cloud-native-platform/phase9-gitops-platform` (Jenkins, Kaniko, Harbor, ArgoCD, Vault + ESO, NFS CSI) và bổ sung các thành phần đặc thù cho ML.
 
 ## 1. Mục tiêu
 
